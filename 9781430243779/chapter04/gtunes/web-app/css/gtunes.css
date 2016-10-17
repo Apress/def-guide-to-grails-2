@@ -1,0 +1,335 @@
+/* ==========================================================================
+   Container
+   ========================================================================== */
+
+body.application {
+    background: #d7d7d7 url(../images/page/bg.png) repeat;
+    padding: 40px;
+    font-family: Helvetica, Arial;
+    font-size: 13px;
+}
+
+.application #container {
+    width: 520px;
+    padding: 30px;
+    margin: 0 auto;
+    background: white;
+}
+
+/* ==========================================================================
+   Application styles
+   ========================================================================== */
+
+.application h1 {
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    color: #689828;
+}
+
+.application a {
+    text-decoration: none;
+    color: #689828;
+}
+
+.application a:hover {
+    text-decoration: underline;
+}
+
+.application p.legend {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+#header {
+
+}
+
+#header h1, #header h1 a {
+    display: block;
+    width: 233px;
+    height: 59px;
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 a {
+    background: url(../images/logo-gtunes.png);
+    text-indent: -6000em;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+#footer {
+    background: #F2F2F2;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: #bebebe;
+}
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+#main {
+    padding: 10px 0;
+}
+
+/* ==========================================================================
+   Colset
+   ========================================================================== */
+
+.colset .right, .colset .left {
+    width: 44%;
+    float: left;
+}
+
+.colset .left {
+    padding-right: 6%;
+}
+
+.colset .right {
+    padding-left: 5%;
+    border-left: 2px solid #F2F2F2;
+}
+
+/* ==========================================================================
+   Message
+   ========================================================================== */
+
+.application .message {
+    background: #F9F9F9;
+    border: 1px solid #ddd;
+    padding: 12px 18px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.application h1, .application h2, .application h3, .application h4, .application h5 {
+    font-family: 'PT Sans Narrow';
+    font-weight: normal;
+}
+
+.application .message h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.application .message p {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+}
+
+.application .notice {
+    background: #edf7fb;
+    border: 1px solid #deebf0;
+}
+
+.application .notice h1 {
+    color: #31697f;
+}
+
+.application .notice p {
+    color: #454c4f;
+}
+
+/* ==========================================================================
+   Form
+   ========================================================================== */
+
+.form .input, .form .submit, .form .textarea{
+    display: block;
+    padding: 3px 0px;
+}
+
+.form .required {
+    color: orange;
+}
+
+.form .input input:focus, .form .textarea textarea:focus {
+    background: white;
+    box-shadow: 0 0 0 white;
+    outline: none;
+}
+
+.form .input input, .form .input label {
+    display: block;
+}
+
+.form .input input, .form .input textarea {
+    border: 1px solid #d9d9d9;
+    background: white;
+    padding: 5px 6px;
+}
+
+.form .input input, .form .input textarea {
+    width: 200px;
+}
+
+.form p.error {
+    color: red;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.form .submit {
+    padding-top: 5px;
+}
+
+.form-horizontal label {
+    width: 140px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 28px;
+    color: #888;
+}
+
+.form-horizontal .input, .form-horizontal .textarea {
+    padding: 6px 0;
+}
+
+.form-horizontal .input input, .form-horizontal .input textarea {
+    width: 250px;
+}
+
+.form-horizontal p.error {
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+.form-horizontal .submit{
+    padding-left: 150px;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+a.btn, input.btn {
+    font-size: 12px;
+    background: red;
+    border: 1px solid #6b8b3f;
+    line-height: 18px;
+    padding: 5px 12px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input.btn {
+    padding: 3px 12px;
+}
+
+a.btn:hover, input.btn:hover {
+    text-decoration: none;
+}
+
+a.btn:active, input.btn:active {
+
+}
+
+
+/* ==========================================================================
+   Gradien
+   ========================================================================== */
+
+.form .input input, .form .textarea textarea {
+    background-image: -o-linear-gradient(bottom, #f2f2f2, #f7f7f7);
+    background-image: -moz-linear-gradient(bottom, #f2f2f2, #f7f7f7);
+    background-image: -webkit-linear-gradient(bottom, #f2f2f2 #f7f7f7);
+    background-image: -ms-linear-gradient(bottom, #f2f2f2, #f7f7f7);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #f2f2f2),
+        color-stop(1, #f7f7f7)
+    );
+}
+a.btn:hover, input.btn:hover {
+    background-image: -o-linear-gradient(bottom, #71a727, #91c032);
+    background-image: -moz-linear-gradient(bottom, #71a727, #91c032);
+    background-image: -webkit-linear-gradient(bottom, #71a727 #91c032);
+    background-image: -ms-linear-gradient(bottom, #71a727, #91c032);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #71a727),
+        color-stop(1, #91c032)
+    );
+}
+
+a.btn, input.btn, a.btn:active, input.btn:active {
+    background-image: -o-linear-gradient(bottom, #689727, #84b432);
+    background-image: -moz-linear-gradient(bottom, #689727, #84b432);
+    background-image: -webkit-linear-gradient(bottom, #689727 #84b432);
+    background-image: -ms-linear-gradient(bottom, #689727, #84b432);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #689727),
+        color-stop(1, #84b432)
+    );
+}
+
+/* ==========================================================================
+   Box shadow
+   ========================================================================== */
+
+#container {
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+a.btn, input.btn {
+    box-shadow: inset 0 1px 0 #a7ca40;
+}
+
+a.btn:hover, input.btn:hover {
+    box-shadow: inset 0 1px 0 #b0d240;
+}
+
+a.btn:active, input.btn:active {
+    box-shadow: inset 0 2px 5px rgba(0,0,0,.3);
+}
+
+
+/* ==========================================================================
+   Text shadow
+   ========================================================================== */
+
+#footer {
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+}
+
+a.btn, input.btn {
+    text-shadow: 0 2px 0 rgba(0,0,0,.3);
+}
+
+/* ==========================================================================
+   Radius
+   ========================================================================== */
+
+a.btn, input.btn {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}

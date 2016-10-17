@@ -1,0 +1,46 @@
+/* Styles for mobile devices */
+
+@media screen and (max-width: 480px) {
+	body.application {
+        padding: 0;
+        margin: 0;
+        background: white;
+        min-width: 480px;
+    }
+    .application #container {
+        box-shadow: 0 0 0 white;
+        padding: 0;
+        margin: 0;
+        width: auto;
+        padding-top: 5px;
+    }
+    #header h1 {
+        padding: 10px;
+        padding-bottom: 0;
+    }
+    .colset .left, .colset .right {
+        float: none;
+        padding: 10px;
+        padding-top: 0;
+        width: auto;
+    }
+    .colset .right {
+        padding-top: 20px;
+    }
+    .form .input input, .form .textarea textarea{
+        width: 440px;
+        padding: 8px;
+    }
+
+    .form-horizontal {
+        padding: 0 10px;
+    }
+
+    .form-horizontal label {
+        text-align: left;
+    }
+
+    .form-horizontal .submit {
+        padding-left: 0;
+    }
+}
